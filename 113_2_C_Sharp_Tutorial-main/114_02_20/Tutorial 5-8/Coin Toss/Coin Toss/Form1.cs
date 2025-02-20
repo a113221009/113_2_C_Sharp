@@ -19,7 +19,15 @@ namespace Coin_Toss
 
         private void tossButton_Click(object sender, EventArgs e)
         {
-           
+            int sideUp;
+
+            Random rand = new Random();
+            sideUp = rand.Next(2);
+
+            if(sideUp == 0)
+            {
+                //Display heads
+            }
         }
 
         private void exitButton_Click(object sender, EventArgs e)
