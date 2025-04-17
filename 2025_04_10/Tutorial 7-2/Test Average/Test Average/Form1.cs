@@ -74,6 +74,8 @@ namespace Test_Average
                 {
                     // Open the file.
                     inputFile = File.OpenText(OpenFile.FileName);
+                    // clear the ListBox.
+                    testScoresListBox.Items.Clear();
                     // Read the test scores from the file.
                     while (!inputFile.EndOfStream && index < SIZE)
                     {
